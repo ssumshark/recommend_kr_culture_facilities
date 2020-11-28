@@ -4,6 +4,7 @@
 Writer : **[Sumin Woo](mailto:wsm9764@naver.com)**
  
 E-Business, Ajou Univ.
+
 ## Related Technology
 <img width="96" alt="aws-logo" src="https://user-images.githubusercontent.com/75171481/100520150-afb0ce00-31df-11eb-9fe0-51ac2e41b91e.png"> <img width="96" alt="elk-logo" src="https://user-images.githubusercontent.com/75171481/100520151-b0496480-31df-11eb-9bdd-f1682cca1076.png"><img width="128" alt="py-logo" src="https://user-images.githubusercontent.com/75171481/100520236-1b933680-31e0-11eb-85fe-194854e61b25.png">
 
@@ -19,6 +20,13 @@ E-Business, Ajou Univ.
 
 ## Getting started
 ### Install dependencies
+
+#### How to start AWS
+- ``` Excute Elastic Search and Kibana background on server If you want AWS. ```
+- ``` Excute logstach and filebeat for uploading data on your local If server memory is full. ```
+- ```It is explained in detail in the link below.```
+
+[AWS EC2 Guide](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/concepts.html)
 
 #### Main Requirements
 
@@ -47,8 +55,17 @@ E-Business, Ajou Univ.
 
 ## How to preprocess Data from Raw using Python
 
+</div>
+</details>
 
-## How to execute Elasticsearch & Kibana
+<details>
+<summary> Details (If you want details click here!) </summary>
+<div markdown="1">
+ </div>
+</details>
+
+
+## How to execute Elasticsearch & Kibana 
 - ```tmux new -s elk, tmux attach -t elk``` (for keep server in background processing)
 - ```bin/elasticsearch``` 
 - ```(ctrl + b) -> d``` (for escaping tmux)
