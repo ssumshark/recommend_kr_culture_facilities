@@ -1,15 +1,25 @@
 ## Elastic Search, AWS, Python 을 활용한 코로나 시대에 따른 서울시 문화 시설 추천
 ### Data analysis based on 2014 Seoul Metro flow data & 2020 Current Status of Cultural Facilities Data
 
-Writer : **[Sumin Woo](mailto:wsm9764@naver.com)**
- 
-E-Business, Ajou Univ.
+Writer : **[Sumin Woo](mailto:wsm9764@naver.com)**, E-Business, Ajou Univ.
+
+
+| **Covid-19, Where do you enjoy your culture life?** <br/> : Recommend a safe place in Seoul-si | Flow Chart |
+| ------ | ------ |
+| <img width="1024" alt="demo" src="https://user-images.githubusercontent.com/51018265/100545565-c4ed3180-329f-11eb-9e31-62d2adaefddb.png"> | <img width="1024" alt="flow" src="https://user-images.githubusercontent.com/51018265/100545568-c7e82200-329f-11eb-92ba-0e9fdbb95ea3.png"> | 
+
+| Metric : Normalized Data & Harmonic Mean  | Recomendation |
+| ------ | ------ |
+| <img width="1024" alt="Metric" src="https://user-images.githubusercontent.com/51018265/100545863-7d67a500-32a1-11eb-93b5-11a6b8351028.png"> | <img width="1024" alt="recommendation" src="https://user-images.githubusercontent.com/51018265/100545860-78a2f100-32a1-11eb-83be-79bd0241fbe7.png"> |
+
+
+
 
 ## Related Technology
 <img width="96" alt="aws-logo" src="https://user-images.githubusercontent.com/75171481/100520150-afb0ce00-31df-11eb-9fe0-51ac2e41b91e.png"> <img width="96" alt="elk-logo" src="https://user-images.githubusercontent.com/75171481/100520151-b0496480-31df-11eb-9bdd-f1682cca1076.png"><img width="128" alt="py-logo" src="https://user-images.githubusercontent.com/75171481/100520236-1b933680-31e0-11eb-85fe-194854e61b25.png">
 
 
-## Overview
+## Dashboard
 | Total Seoul-metro-2014 | Cultural Facilities-2020 at Each Station|
 | ------ | ------ |
 | <img width="512" alt="seoul-metro-demo" src="https://user-images.githubusercontent.com/75171481/100519947-82175500-31de-11eb-8827-9eb92a65f060.png"> | <img width="512" alt="Cultural Facilities Data" src="https://user-images.githubusercontent.com/75171481/100519979-abd07c00-31de-11eb-9e0d-b9c21494b897.png"> | 
@@ -17,6 +27,10 @@ E-Business, Ajou Univ.
 |  Seoul-metro-2014 Weekend Flow Order | Cultural Facilities-2020|
 | ------ | ------ |
 |<img width="512" alt="seoul-metro-demo" src="https://user-images.githubusercontent.com/75171481/100519984-b0953000-31de-11eb-8667-3293891d2b10.png">|<img width="512" alt="seoul-metro-demo" src="https://user-images.githubusercontent.com/75171481/100519986-b559e400-31de-11eb-90d0-6a87ed7e2ad0.png">|
+
+|  Weekend Flow Data for station having many culture facilities | Weekday Flow Data for station having many culture facilities|
+| ------ | ------ |
+|<img width="512" alt="Weekend" src="https://user-images.githubusercontent.com/75171481/100546042-7ee59d00-32a2-11eb-9576-cf272c31ae2b.png">|<img width="512" alt="Weekday" src="https://user-images.githubusercontent.com/75171481/100546043-8147f700-32a2-11eb-8219-9e698d5a87f2.png">|
 
 ## Getting started
 ### Install dependencies
